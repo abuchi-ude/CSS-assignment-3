@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 3</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(172, 153, 243);
+            border: 10px solid rgb(202, 202, 202);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        div{
+            width: 40%;
+            height: fit-content;
+            border: 0px solid snow;
+        }
+        img{
+            width: 100%;
+            height: 21em;
+            border-radius: 10px 10px 0px 0px;
+            
+        }
+        .image{
+            height: fit-content;
+            position: relative;
+        }
+        .content{
+            background-color: snow;
+            padding: 25px;
+            margin-top: -1%;
+            border-radius: 0px 0px 10px 10px;
+            font-weight: bold;
+        }
+        h3{
+            padding: 10px;
+            background-color: rgb(248, 215, 153);
+            width: fit-content;
+            border-radius: 5px 20px 20px 5px;
+            position: absolute; 
+            left: -10px;
+        }
+        .watch{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        span{
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #807f7b;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <section class="image">
+            <h3>New and Improved!</h3>
+            <img src="/assignments altschool/asset/watch.jpg" alt="A watch">
+        </section>
+        <section class="content">
+            <p class="watch">Novus Watch <span>Series IV</span></p>
+            <p>The pinnacle of fashion and tech. This wearable piece is a homage
+                to gilded palaces and minimal regalia, combining nouveau-deco and
+                brutalism influences in a compact, Swiss made watch.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
